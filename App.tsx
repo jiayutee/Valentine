@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { AppStep } from './types';
-import { QuestionCard } from './components/QuestionCard';
-import { SuccessCard } from './components/SuccessCard';
-import { LoadingCard } from './components/LoadingCard';
-import { HeartBackground } from './components/HeartBackground';
+import { AppStep } from './types.ts';
+import { QuestionCard } from './components/QuestionCard.tsx';
+import { SuccessCard } from './components/SuccessCard.tsx';
+import { LoadingCard } from './components/LoadingCard.tsx';
+import { HeartBackground } from './components/HeartBackground.tsx';
 
 export default function App() {
   const [currentStep, setCurrentStep] = useState<AppStep>(AppStep.QUESTION);
